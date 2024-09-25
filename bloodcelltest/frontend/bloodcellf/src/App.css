@@ -1,0 +1,19 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  background-color: #7f3a30;
+  font-family: monospace;
+}
+
+.content {
+  margin-top: 50px;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .content {
+    width: 100%;
+    padding: 10px;
+  }
+}
